@@ -1,5 +1,5 @@
 <?php
-namespace Bootstrap;
+namespace Bootstrap\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,7 +19,7 @@ class BootstrapServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('Bootstrap\Bootstrap', function ($app) {
+        $this->app->singleton('bootstrap', function ($app) {
             return new Bootstrap();
         });
     }

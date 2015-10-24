@@ -2,7 +2,7 @@
 namespace Bootstrap;
 
 /**
- * Create a bootstrap Breadcrumb
+ * Create a bootstrap breadcrumb
  * @author joeloco
  */
 class Breadcrumb {
