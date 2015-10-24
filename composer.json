@@ -24,8 +24,12 @@
         "source": "https://github.com/JoeLoco/bootstrap"
     },
     "autoload": {
-        "psr-4": { "Bootstrap\\": "src" },
-        "files": ["src/Bootstrap.php"]
+        "psr-4": { "Bootstrap\\": "src/Bootstrap/" },
+        "files": [
+            "src/Bootstrap/Bootstrap.php",
+            "src/Bootstrap/BootstrapServiceProvider.php",
+            "src/Bootstrap/Breadcrumb.php"
+        ]
     },
     "autoload-dev": {
         "classmap": [ "tests" ]
