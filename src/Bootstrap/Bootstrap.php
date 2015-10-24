@@ -5,7 +5,7 @@ namespace Bootstrap;
  * Create a bootstrap breadcrumb
  * @author joeloco
  */
-class Breadcrumb {
+class Bootstrap {
     
     public function breadcrumb()
     {
