@@ -3,7 +3,7 @@
 ### Install
 
 ```console
-composer install joeloco/bootstrap
+composer require "joeloco/bootstrap:dev-master"
 ```
 
 ### Config
