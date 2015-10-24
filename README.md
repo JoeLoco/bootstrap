@@ -1,12 +1,12 @@
 ## A bootstrap 3 helper for Laravel 5
 
-# Install
+### Install
 
 ```console
 composer install joeloco/bootstrap
 ```
 
-# Config
+### Config
 
 1 - Register the service provider in /config/app 
 
@@ -27,7 +27,7 @@ composer install joeloco/bootstrap
     ],
 ```
 
-# Breadcrumb example
+### Breadcrumb example
 
 ```php
 <?php echo BS::breadcrumb()->drop('Root','/root')->drop('Chield','root/chield')->stop('right');?>
